@@ -1,0 +1,46 @@
+header{
+  width: 100px;
+  height: 100px;
+}
+body {
+  background: url("http://www.elpadrinopizza.cl/wp-content/themes/Pluto/data/1429414056_T2zRX8G2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;/*TO SEE MY CSS IN DIFERENT BROWSERS*/
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+}
+article {
+position: center;
+width:1000%;
+height:1000px;
+}
+article h2{
+  color: white;
+  
+}
+footer {
+ position: absolute;
+   bottom:0;
+   width:100%;
+   height:100px;  
+ }
+
+footer p{
+color: white;
+text-align: right;
+}
+footer a:link {
+  color: #FFFFFF;/*WE USE THIS TO DETERMINATE THE COLOR USING RED GREEN BLUE PRECENTAGES*/
+}
+
+footer a:visited {
+` color: #CCCCCC;/*VISIT https://developer.mozilla.org/en-US/docs/Web/CSS/color_value */
+}
+
+footer a:hover {
+  color: #999999;
+}
